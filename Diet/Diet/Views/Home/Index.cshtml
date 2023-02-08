@@ -1,8 +1,115 @@
-﻿@{
+﻿
+@{
     ViewData["Title"] = "Начало";
 }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Diet</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Diet.styles.css" asp-append-version="true" />
+</head>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<body>
+<section class="home" id="home">
+<div class="home-text">
+   <span>Добре Дошли в</span>
+    <h1>Moti<b>FIT</b>ion</h1>
+    <h2>Това не е диета, а начин на живот</h2>
+    <a href="~/Shared/_Layout" class="btn">Направи твоя план СЕГА </a>
 </div>
+<div class="home-img">
+        <img src="images/4.png" alt="">
+</div>
+</section>
+
+<section class="about" id="about">
+<div class="heading">
+   <span>Научи СЕГА</span>
+    <h1>Диети и Хранителни режими</h1>
+ </div>
+ <div class="container">
+       <div class="about-img">
+           <img src="images/7image.jpg" alt="" >
+       </div>
+       <div class="about-text">
+           <p>Диетите и най-вече начина по който се храним са едни от най-основните компоненти
+               за това да се чувстваме и да изглеждаме добре. В Motifition сме събрали интересни 
+              предложения на популярни диети и хранителни режими, които бихте могли да приложите в ежедневието си.
+           Важно е да се знае, че когато диетите се спазват само за определен период от време,
+           а след това се завърнем към стари навици и нездравословна храна, то и резултатите
+           от диетата са краткотрайни. За това е важно човек да изгражда устойчив начин на живот,
+           който го прави по-независим от определена диета. Когато диетата се превърне в хранителен режим,
+           към който се придържате тогава резултатите от този начин на хранене и живот остават дълготрайно, 
+           а вие доволни от резултатите с които живеете всеки ден.
+           Спорта е изключително важен компонент от здравословния начин на живот.
+           </p>
+           <a href="~/Home/About" class="btn">Научи повече</a>
+       </div>
+    </div>
+</section>
+
+<section class="coach" id="coachs">
+    <div class="heading2">
+        <h2>Нашите професионални треньори</h2>
+    </div>
+    <div class="coach-row">
+        <div class="box">
+            <div class="coach-img">
+                <img src="images/8.jpg" alt=""/>
+            </div>
+            <div class="coach-content">
+                <h3>Адриан Чомов</h3>
+                <p>Той е треньор по отслабване и лайф коуч, който е пристрастен да помага на хората да отслабнат, без да се налага да жертват храната, която обичат, или своето щастие.
+                </p>
+                 <a href="~/Home/Trainers" class="btn">Виж повече</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="coach-img">
+                <img src="images/9.jpg" alt=""/>
+            </div>
+            <div class="coach-content">
+                <h3>Мариян Форов</h3>
+                <p>Той лицензиран личен треньор и състезателен бодибилдър. Обучавал е много хора за постигане на техните цели; изграждане на мускули и тонизиране, загуба на мазнини и др.
+                </p>
+                 <a href="~/Home/Trainers" class="btn">Виж повече</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="coach-img">
+                <img src="images/10.jpg" alt=""/>
+            </div>
+            <div class="coach-content">
+                <h3>Милена Томова</h3>
+                <p>Тя е инструктор по йога и помага на учениците да подобрят своята физическа форма и здраве, като използва йога за укрепване на телата и умовете си.
+                </p>
+                 <a href="~/Home/Trainers" class="btn">Виж повече</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <br/>
+<section class="results" id="resuls">
+       <div class="results-img">
+           <img src="images/6.jpg" alt="" >
+ </div>
+       <div class="results-text">
+ <h1>Историята на успеха</h1>
+        <h2>Зара Морова</h2>
+            <p>
+                Чувствам се супер позитивна и енергична - чувствата, които не познавах преди.
+                За мен лично здравословният начин на живот беше мистериозна и нереалистична теория, която никога не съм бил в настроение да изследвам. Не, с вашата помощ и напътствия трябва да започна нов живот! Винаги е по-лесно да се насладите на бързата храна, но забравяме, че пренебрегването на вашата диета ни коства дълъг и щастлив живот. Не е нужно да сте готвач, за да можете да се храните правилно. Днес всеки може да си позволи органични зелени зеленчуци, пресни плодове и протеини.
+                Всичко, което трябва да направите, е да положите малко усилия, наистина.
+            </p>
+       </div> 
+</section>
+<br/>
+
+
+</body>
+</html>

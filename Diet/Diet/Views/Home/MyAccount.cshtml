@@ -2,6 +2,45 @@
 @{
     ViewData["Title"] = "Моя план";
 }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Diet</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/MyAccount.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Diet.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="~/js/site.js" defer></script>
+</head>
 
-<h1>MyAccount</h1>
-
+<body>
+    <br/>
+    <br/>
+    <div></div>
+    <div class="wrapper">
+       <header>
+          <p class=""current-date"></p>
+           <div class="icons">
+             <span id="prev" class="material-symbols-rounded">chevron_left</span>
+             <span id="next" class="material-symbols-rounded">chevron_right</span>
+           </div>
+       </header>
+       <div class="calendar">
+          <ul class="weeks">
+            <li>Нед</li>
+            <li>Пон</li>
+            <li>Вт</li>
+            <li>Ср</li>
+            <li>Четв</li>
+            <li>Пет</li>
+            <li>Съб</li>
+          </ul>
+          <ul class="days">
+           
+          </ul>
+       </div>
+    </div>
+</body>
+</html>
