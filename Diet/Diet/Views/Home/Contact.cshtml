@@ -12,6 +12,7 @@
     ViewData["Title"] = "Контакти";
 }
 <body>
+    <section class="home" id="home">
     <div class="container">
         <div class="row">
             <div class="col-md-7">
@@ -19,6 +20,7 @@
                 <p class="text-left">Личната комуникация с теб е много важна за екипа ни. Не се колебай да се свържеш с нас на посочените по-долу координати. 
                 Отговаряме в рамките на един работен ден.</p>
             </div>
+            <form action="https://formsubmit.co/a4f861e74bcf24954aea6c576470f9df" method="POST">
             <div class="col-md-5">
                 <div class="row">
                     <div class="col-md-6">
@@ -31,7 +33,7 @@
                 <div class="row">
                    <label class="label col-md-2 control-label">Имейл</label>
                     <div class="col-md-10">
-                       <input type="Email" class="form-control" name="Email" placeholder="Имейл">
+                       <input type="Email" class="form-control" name="Email" placeholder="Имейл" required>
                     </div>
                 </div>
                 <div class="row">
@@ -67,10 +69,12 @@
                        </select>
                     </div>
                 </div>
-                <a href="#"><div class="btn btn-info">Изпращане</div></a>
+                <button type="submit" class="btn btn-info">Изпращане</button>
                 <a href="#"><div class="btn btn-warning">Отказ</div></a>
             </div>
+            </form>
         </div>
     </div>
+   </section>
 </body>
 </html>

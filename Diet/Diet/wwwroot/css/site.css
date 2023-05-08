@@ -199,10 +199,12 @@ body {
     color:#1B1722;
 }
 .coach-row {
-    flex-direction: row;
     display: flex;
+    flex-direction: row;
+    justify-content:space-around;
 }
 .coach .row {
+    display: flex;
     margin-bottom: 4rem;
     display: flex;
     align-items: center;

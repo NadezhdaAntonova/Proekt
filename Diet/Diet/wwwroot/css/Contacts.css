@@ -34,11 +34,12 @@ header {
     box-shadow: 0 4px 41px rgba(217 213 212 / 15);
 }
 
-body {
-}
-
 section {
     padding: 30px 8%;
+}
+
+img {
+    width: 100%;
 }
 
 .container-fliud {
@@ -92,11 +93,18 @@ section {
 }
 
 body {
+    margin-bottom: 60px;
+}
+
+
+.home {
+    margin-bottom: 60px;
     background-image: url(../images/back.jpg);
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Times New Roman';
 }
+
 h1{
     font-size: 40px;
     color: white;
